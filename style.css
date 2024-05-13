@@ -1,0 +1,358 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  position: relative;
+  background-color: #1A2238;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  padding: 0 3%;
+  width: 100%;
+  z-index: 100;
+  
+}
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+.header nav {
+  display: flex;
+  gap: 30px;
+}
+.header nav a {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 99px;
+  transition: 0.3s;
+  color: white;
+}
+/* .header nav a.active {
+  background: #9DAAF2;
+}
+.header nav a:hover {
+  background: #9DAAF2;
+  color: black;
+}
+.header nav:hover > a:not(:hover) {
+  background: none;
+}
+   */
+
+.home {
+  /* background-color: red; */
+  height: 70vh;
+  margin: 80px;
+  /* width: 100%; */
+  justify-content: space-between;
+ 
+  
+  display: flex;
+  color: white;
+
+  /* background-color: red;  */
+  
+ 
+}
+
+
+
+.content1{
+  
+  font-size: 150%;
+
+  width: 75%;
+  margin-top: 40px ;
+  /* background-color: red; */
+  
+  
+  
+  
+}
+
+.a {
+  font-weight: bold;
+  color: snow;
+  
+}
+
+.b {
+  padding-top: 10px;
+  color: #FF6A3D;
+  font-weight: bold;
+  font-size: 250%;
+  margin: 10px;
+  text-shadow: 4px 5px #4f2500;;
+  
+
+  
+  
+  
+
+}
+.c {
+  
+  color: snow;
+  margin: 12px;
+  font-size: 20px;
+  font-weight: bold;
+  
+ 
+  
+
+}
+
+
+.c :nth-child(1) {
+  color: #9DAAF2;
+}
+.c :nth-child(2) {
+  color: snow;
+}
+
+.c :nth-child(3) {
+  color: #F4DB7D
+  ;
+}
+.c :nth-child(4) {
+  color: snow;
+}
+
+.content2 {
+  /* background-color: #FF6A3D; */
+  margin-left: 50px;
+  width: 500px;
+  height: 500px;
+  
+}
+
+.content2 img {
+  width: 400px;
+  height: 400px;
+}
+
+.cv {
+  background-color: #9DAAF2;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  
+}
+
+.home2 {
+  width: 100%;
+  height: 75vh;
+  background-color: #111726;
+ 
+  
+}
+
+.about {
+  margin: 50px;
+  padding-top: 40px;
+}
+
+
+
+.about p {
+  margin-top: 15px;
+  color: #9DAAF2;
+}
+
+.about h1 {
+  color: snow;
+  font-size: 30px;
+ 
+}
+
+.about2 {
+  margin: 50px;
+  display: flex;
+  
+  
+
+}
+
+
+
+.about2-content {
+  margin-left: 30px;
+  display: flex;
+}
+
+.about2 h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.about2 p {
+  margin: 10px;
+  color: #9DAAF2;
+  max-width: 500px;
+}
+
+.about-content1 {
+  background-color: #1A2238;
+  border-radius: 20px;
+}
+
+.about-content2 {
+ 
+  background-color: #1A2238;
+ margin-left: 50px;
+ border-radius: 20px;
+}
+
+.personal {
+  margin: 20px;
+}
+
+.experience {
+  margin: 20px;
+}
+
+
+.about2 img {
+   width: 300px;
+   height: 300px;
+}
+
+
+.about3 {
+  width: 100%;
+  height: 100vh;
+  background-color: #1A2238;
+  
+}
+
+.project {
+  margin: 50px;
+  /* background-color: rebeccapurple; */
+  height: 105vh;
+  
+  
+
+
+}
+
+
+.project h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.project p {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #9DAAF2;
+}
+
+.project-list {
+  
+  /* background-color: #9DAAF2; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ 
+
+  
+ 
+  
+}
+
+.project-content {
+  width: 400px;
+  height: 400px;
+  
+  margin-left: 20px;
+ background-color: #FF6A3D;
+ margin: 40px;
+ border-radius: 50;
+
+
+ 
+
+
+}
+
+.project-content img {
+  width: 400px;
+  height: 400px;
+}
+
+
+
+
+
+
+ 
+
+
+
+
+
+@media (max-width: 1188px) {
+  .header {
+    height: auto;
+    padding: 20px 5%;
+  }
+  .header h1 {
+    font-size: 30px;
+  }
+  .header nav {
+    display: none; 
+  }
+  .home {
+    justify-content: none; 
+    margin: 40px;
+    
+  }
+  .a {
+    font-size: calc(5px + 2vw);
+  }
+  .b {
+    font-size: calc(10px + 5vw);
+  }
+  .c {
+    font-size: calc(3px + 2vw);
+  }
+  .content2 {
+    display: none;
+  }
+  .content1 {
+    width: 100%;
+  }
+
+  .about2 img {
+    display: none;
+  }
+
+
+  .home2 {
+    height: 100vh;
+  }
+
+ 
+  
+
+ 
+}
